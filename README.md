@@ -49,15 +49,12 @@
 
 > Special Thanks to all of you !!!.
 
-## [Documentation](https://theuserge.github.io) 📘
+## [Deployment] 👷
+Deploy to Heroku
+Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
 
-## [Deployment](https://theuserge.github.io/deployment) 👷
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/infotechIT/Userge)
 
-## [Plugins](https://github.com/UsergeTeam/Userge-Plugins) 🔌
-
-### Support & Discussions 👥
-
-> Head over to the [Discussion Group](https://t.me/usergeot) and [Update Channel](https://t.me/theUserge)
 
 ### Project Credits 💆‍♂️
 
