@@ -1,0 +1,39 @@
+{
+    "name": "Ultroid UserBot",
+    "description": "Pluggable telegram userbot, made in python using Telethon.",
+    "logo": "https://telegra.ph/file/031957757a4f6a5191040jpg.",
+    "repository": "https://github.com/infotechIT/Userge",
+    "website": "https://infotechIT",
+    "success_url": "https://t.me/infotechIT",
+    "env": {
+        "API_ID": {"description": "Get this value from https://t.me/TGORGXBOT"},
+        "API_HASH": {"description": "Get this value from https://t.me/TGORGXBOT"},
+        "DATABASE_URL": {"description": "Mongodb url from https://cloud.mongodb.com/"},
+        "LOG_CHANNEL_ID": {"description": "Telegram Log Channel ID"},
+        "SESSION_STRING": {
+            "description": "[USER MODE] - Get this using `bash https://t.me/SessionStringGen_Bot`",
+            "required": false},
+        "BOT_TOKEN": {
+            "description": "[BOT MODE] - Get this from https://t.me/botfather",
+            "required": false},
+        "OWNER_ID": {
+            "description": "[BOT MODE] - Your user_id get it from - https://t.me/idgen_bot",
+            "required": false},
+        "HEROKU_APP_NAME": {
+            "description": "given app name to the heroku app",
+            "required": false},
+        "HEROKU_API_KEY": {
+            "description": "get a Heroku API key from http://dashboard.heroku.com/account",
+            "required": false}
+    },
+    "buildpacks": [
+        {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
+        {"url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab.git"},
+        {"url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"},
+        {"url": "https://github.com/rking32/heroku-buildpack-google-chrome"},
+        {"url": "https://github.com/rking32/heroku-buildpack-chromedriver"},
+        {"url": "https://github.com/heroku/heroku-buildpack-apt.git"},
+        {"url": "https://github.com/subinps/heroku-buildpack-nodejs"},
+        {"url": "heroku/python"}
+    ]
+}
