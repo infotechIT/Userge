@@ -424,7 +424,7 @@ if userge.has_bot:
                 input_message_content=InputTextMessageContent(
                     "**Here's how to setup Userge** 😎"
                 ),
-                url="https://github.com/UsergeTeam/Userge",
+                url="https://github.com/infotechIT/Userge",
                 description="Setup Your Own",
                 thumb_url="https://imgur.com/download/Inyeb1S",
                 reply_markup=InlineKeyboardMarkup(
@@ -432,10 +432,10 @@ if userge.has_bot:
                         [
                             InlineKeyboardButton(
                                 "🧰 Userge Repo",
-                                url="https://github.com/UsergeTeam/Userge"),
+                                url="https://github.com/infotechIT/Userge"),
                             InlineKeyboardButton(
                                 "🖥 Deploy Userge",
-                                url="https://t.me/theUserge/102")
+                                url="https://t.me/infotechbots/40")
                         ]
                     ]
                 )
